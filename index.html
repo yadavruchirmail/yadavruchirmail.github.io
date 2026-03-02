@@ -1,119 +1,76 @@
+     
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ruchir Yadav | Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+     <title>Ruchir Yadav | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        margin: 0;
+        background: #f9fafb;
+        color: #111827;
+        line-height: 1.7;
+    }
 
-<style>
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    margin: 0;
-    background: #f9fafb;
-    color: #111827;
-    line-height: 1.7;
-}
-
-/* ================= HEADER ================= */
-
-header {
-    background: linear-gradient(135deg, #0f172a, #1e293b);
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-header img {
+    header {
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color: white;
+        padding: 20px 20px;
+        text-align: center;
+    }
+         header img {
     width: 170px;
     height: 170px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-}
-
-header h1 {
-    font-size: 38px;
-    font-weight: 700;
-    margin: 10px 0 5px 0;
-}
-
-header p {
-    font-size: 15px;
-    opacity: 0.85;
-}
-
-/* ================= SECTIONS ================= */
-
-section {
-    max-width: 1000px;
-    margin: 100px auto;
-    padding: 0 20px;
-}
-
-/* Fade Animation */
-
-.fade-in {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: all 1s ease;
-}
-
-.fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-h2 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 60px;
-}
-
-/* ================= EXPERIENCE CARDS ================= */
-
-.job {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 80px;
-    border-left: 3px solid #2563eb;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.job:hover {
-    transform: translateY(-5px);
-}
-
-.job-title {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.company {
-    font-size: 14px;
-    color: #2563eb;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.category {
-    font-size: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #6b7280;
-    margin-top: 25px;
     margin-bottom: 10px;
-    letter-spacing: 1px;
 }
 
-/* ================= SLIDER ================= */
+    section {
+        max-width: 1000px;
+        margin: 100px auto;
+        padding: 0 20px;
+    }
 
-.slider {
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 60px;
+    }
+
+    .job {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 80px;
+        border-left: 3px solid #2563eb;
+    }
+
+    .job-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .company {
+        font-size: 14px;
+        color: #2563eb;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .category {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #6b7280;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+       .slider {
     margin: 100px auto;
     max-width: 1200px;
     position: relative;
@@ -140,137 +97,248 @@ h2 {
     opacity: 1;
 }
 
-ul {
-    padding-left: 20px;
-    margin-top: 0;
-}
+    ul {
+        padding-left: 20px;
+        margin-top: 0;
+    }
 
-li {
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-/* Footer */
-
-footer {
-    text-align: center;
-    padding: 30px;
-    background: #111827;
-    color: white;
-    margin-top: 100px;
-}
-
+    li {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
 </style>
 </head>
-
 <body>
 
 <header>
-<img src="images/profile.jpg">
-<h1>Ruchir Yadav</h1>
-<p>Quartz R&D | Formulation Low Silica | Zero Silica | Breton | Robotics | BITS Pilani</p>
+     <img src="images/profile.jpg" >
+    <h1>Ruchir Yadav</h1>
+    <p>Quartz R&D | Formulation Low Silica | Zero Silica | Breton | Robotics | BITS Pilani</p>
 </header>
-
 <section class="slider">
-<div class="slides">
-<img src="images/slab1.jpg" class="slide active">
-<img src="images/slab2.jpg" class="slide">
-<img src="images/slab3.jpg" class="slide">
-<img src="images/slab4.jpg" class="slide">
-<img src="images/slab5.jpg" class="slide">
-<img src="images/slab6.jpg" class="slide">
-<img src="images/slab7.jpg" class="slide">
-<img src="images/slab8.jpg" class="slide">
-<img src="images/slab9.jpg" class="slide">
-<img src="images/slab10.jpg" class="slide">
-<img src="images/slab11.jpg" class="slide">
-</div>
+    <div class="slides">
+        <img src="images/slab1.jpg" class="slide active">
+        <img src="images/slab2.jpg" class="slide">
+        <img src="images/slab3.jpg" class="slide">
+      <img src="images/slab4.jpg" class="slide">
+      <img src="images/slab5.jpg" class="slide">
+      <img src="images/slab6.jpg" class="slide">
+      <img src="images/slab7.jpg" class="slide">
+      <img src="images/slab8.jpg" class="slide">
+      <img src="images/slab9.jpg" class="slide">
+      <img src="images/slab10.jpg" class="slide">
+      <img src="images/slab11.jpg" class="slide">
+      
+        
+    </div>
+</section>
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+        BITS Pilani alumnus with 5+ years of experience in 
+        engineered quartz / composite stone manufacturing across R&D, product development, 
+        robotics automation, and process stabilization.
+        </p>
+
+        <p>
+        Currently leading product development and quality initiatives in a Breton-based 
+        quartz plant, working on Carrara and Calacatta designs, low-silica and zero-silica 
+        formulations, raw material validation, and scale-up trials.
+        </p>
+
+        <p>
+        Strong focus on yield improvement, defect reduction, robotic integration, 
+        data-driven process control, and making R&D designs manufacturable at scale.
+        </p>
+    </div>
 </section>
 
-<section class="fade-in">
-<h2>About Me</h2>
-<div class="card">
-<p>
-BITS Pilani alumnus with 5+ years of experience in engineered quartz / composite stone manufacturing across R&D, product development, robotics automation, and process stabilization.
-</p>
-<p>
-Currently leading product development and quality initiatives in a Breton-based quartz plant, working on Carrara and Calacatta designs, low-silica and zero-silica formulations, raw material validation, and scale-up trials.
-</p>
-<p>
-Strong focus on yield improvement, defect reduction, robotic integration, data-driven process control, and making R&D designs manufacturable at scale.
-</p>
+<section>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+
+    <div class="job-title">
+        Manager – Product Development & Quality
+    </div>
+    <div class="company">
+        Marudhar Quartz Surfaces | 2023 – Present
+    </div>
+
+    <div class="category">Robot-Based Design Development</div>
+    <ul>
+        <li>Designing and developing new Carrara and Calacatta patterns using robotic dispensing systems.</li>
+        <li>Generating robotic paths and optimizing vein distribution for visual consistency at production scale.</li>
+        <li>Leading colour matching trials to achieve customer-specific shade approvals.</li>
+    </ul>
+
+    <div class="category">Low & Zero Silica Product Development</div>
+    <ul>
+        <li>Developing low-silica and zero-silica formulations aligned with global regulatory shifts.</li>
+        <li>Balancing resin system, filler interaction, and pigment dispersion to maintain strength and polish.</li>
+        <li>Adapting existing designs into compliant low-silica variants without aesthetic compromise.</li>
+    </ul>
+
+    <div class="category">Global Technical Coordination</div>
+    <ul>
+        <li>Coordinating with Caesarstone technical team for new design development and validation.</li>
+        <li>Working with Daltile team on zero-silica product development and formulation adaptation.</li>
+        <li>Acting as primary interface between R&D, production, and international partners.</li>
+    </ul>
+
+    <div class="category">Raw Material & Manufacturing Control</div>
+    <ul>
+        <li>Leading raw material testing, qualification, and performance validation.</li>
+        <li>Managing stock planning and ensuring material readiness for commercial production.</li>
+    </ul>
+
 </div>
+
+
+    <div class="job">
+
+    <div class="job-title">
+        Assistant Manager – Process & Robotics
+    </div>
+    <div class="company">
+        Pokarna Engineered Stone | 2021 – 2023
+    </div>
+
+    <div class="category">Robotics & Automated Manufacturing</div>
+    <ul>
+        <li>Led 15-member robotics operations and maintenance team across 3-shift production.</li>
+        <li>Managed Comau and Fanuc robotic systems for moulding, slab handling, and design execution.</li>
+        <li>Utilized offline programming and simulation tools to validate robotic cycles before deployment.</li>
+    </ul>
+
+    <div class="category">Product & Shade Stabilization</div>
+    <ul>
+        <li>Stabilized shade formulations improving first-grade yield from ~75% to ~85%.</li>
+        <li>Strengthened early-stage inspection and defect classification systems.</li>
+    </ul>
+
+    <div class="category">Process Standardization</div>
+    <ul>
+        <li>Developed plant-level SOPs for moulding and polishing lines.</li>
+        <li>Reduced line changeover time improving equipment availability and planning efficiency.</li>
+    </ul>
+
+</div>
+
 </section>
 
-<section class="fade-in">
-<h2>Professional Experience</h2>
-<div class="job">
-<div class="job-title">Manager – Product Development & Quality</div>
-<div class="company">Marudhar Quartz Surfaces | 2023 – Present</div>
-<div class="category">Robot-Based Design Development</div>
+<section>
+    <h2>Core Expertise</h2>
+
+    <div class="job">
+
+        <div class="category">R&D & Product Engineering</div>
+        <ul>
+            <li>Engineered Quartz Formulation Development</li>
+            <li>Low-Silica & Zero-Silica Product Transition</li>
+            <li>Colour Matching & Shade Stabilization</li>
+            <li>Carrara & Calacatta Vein Design Engineering</li>
+            <li>Resin–Filler Interaction Optimization</li>
+        </ul>
+
+        <div class="category">Robotics & Design Automation</div>
+        <ul>
+            <li>Comau & Fanuc Industrial Robots</li>
+            <li>Robot-Based Vein Dispensing & Pattern Control</li>
+            <li>Offline Programming (OLP) & Simulation</li>
+            <li>Rhino3D for Design & Path Preparation</li>
+            <li>Breton CNC Operations</li>
+        </ul>
+
+        <div class="category">Manufacturing & Process Control</div>
+        <ul>
+            <li>Vacuum & Press Cycle Optimization</li>
+            <li>Defect Root Cause Analysis (RCA)</li>
+            <li>Yield Improvement Strategies</li>
+            <li>Process Standardization & SOP Development</li>
+            <li>Scale-Up from Trial to Commercial Production</li>
+        </ul>
+
+        <div class="category">Material & Supply Governance</div>
+        <ul>
+            <li>Raw Material Qualification & Validation</li>
+            <li>Vendor Technical Coordination</li>
+            <li>Stock Planning & Production Alignment</li>
+        </ul>
+
+        <div class="category">Data & Systems</div>
+        <ul>
+            <li>Power BI Dashboard Development</li>
+            <li>Structured Defect Mapping Systems</li>
+            <li>KPI Monitoring & Production Analytics</li>
+        </ul>
+
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="card">
+        BITS Pilani – Engineering Background
+    </div>
+</section>
+
+
+<section>
+    <h2>Publications</h2>
+
+    <div class="job-title">
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003682X21005995" 
+       target="_blank">
+        Optimal Sensor Placement for Multi-Component Failure Detection
+    </a>
+</div>
+
+<div class="company">
+    Elsevier | 2021
+</div>
+
 <ul>
-<li>Designing and developing new Carrara and Calacatta patterns using robotic dispensing systems.</li>
-<li>Generating robotic paths and optimizing vein distribution for visual consistency at production scale.</li>
-<li>Leading colour matching trials to achieve customer-specific shade approvals.</li>
+    <li>Research on intelligent sensor placement strategy for multi-component fault detection.</li>
+    <li>Focused on integrated condition monitoring and failure identification.</li>
 </ul>
+
+        <div class="job-title">
+    <a href="https://pubs.aip.org/aip/acp/article-abstract/2715/1/020025/2890558/Comparison-of-noise-reduction-performance-of?redirectedFrom=fulltext" 
+       target="_blank">
+        Comparative Study on Denoising Autoencoders (CNN vs LSTM)
+    </a>
 </div>
-</section>
 
-<section class="fade-in">
-<h2>Core Expertise</h2>
-<div class="job">
-<div class="category">R&D & Product Engineering</div>
-<ul>
-<li>Engineered Quartz Formulation Development</li>
-<li>Low-Silica & Zero-Silica Product Transition</li>
-<li>Colour Matching & Shade Stabilization</li>
-<li>Carrara & Calacatta Vein Design Engineering</li>
-<li>Resin–Filler Interaction Optimization</li>
-</ul>
+<div class="company">
+    Research Publication
 </div>
-</section>
 
-<section class="fade-in">
-<h2>Publications</h2>
-<div class="job-title">
-<a href="https://www.sciencedirect.com/science/article/abs/pii/S0003682X21005995" target="_blank">
-Optimal Sensor Placement for Multi-Component Failure Detection
-</a>
-</div>
-<div class="company">Elsevier | 2021</div>
-</section>
 
-<script>
-let slides = document.querySelectorAll(".slide");
-let current = 0;
+        <ul>
+            <li>Analyzed noise reduction performance of deep learning architectures for signal processing.</li>
+        </ul>
 
-function nextSlide() {
-    slides[current].classList.remove("active");
-    current = (current + 1) % slides.length;
-    slides[current].classList.add("active");
-}
-setInterval(nextSlide, 4000);
+    </div>
+</section>  
+   <script>
+    let slides = document.querySelectorAll(".slide");
+    let current = 0;
 
-/* Scroll Reveal */
-const elements = document.querySelectorAll(".fade-in");
+    function nextSlide() {
+        slides[current].classList.remove("active");
+        current = (current + 1) % slides.length;
+        slides[current].classList.add("active");
+    }
 
-function revealOnScroll() {
-    const windowHeight = window.innerHeight;
-    elements.forEach(el => {
-        const elementTop = el.getBoundingClientRect().top;
-        if (elementTop < windowHeight - 100) {
-            el.classList.add("visible");
-        }
-    });
-}
-
-window.addEventListener("scroll", revealOnScroll);
-revealOnScroll();
+    setInterval(nextSlide, 4000); // 4000ms = 4 seconds
 </script>
 
 <footer>
-<p>© 2026 Ruchir Yadav | Jaipur, India</p>
+    <p>© 2026 Ruchir Yadav | Jaipur, India</p>
 </footer>
 
 </body>
 </html>
+
